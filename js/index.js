@@ -387,13 +387,13 @@ function page19() {
 // 	video.play();
 // }
 
-//var height = $('body').height();
-//
-//      $(window).resize(function() {
-//      	
-//          $('#page1 .content').height(height);
-//          
-//      });
+var height = $('body').height();
+
+        $(window).resize(function() {
+        	
+            $('#page1 .content').height(height);
+            
+        });
 
 //$(document).ready(function () {
 //　　$('body').height($('body')[0].clientHeight);
