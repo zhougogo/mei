@@ -161,8 +161,8 @@ input{
 
 .submitBtm {
 	position: absolute;
-	width: 26%;
-	bottom: 5%;
+	width: 22%;
+	bottom: 4%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -187,7 +187,7 @@ input{
 	display: none;
 }
 .myPopupDialog2{
-	display: none;
+	/*display: none;*/
 }
 .myPopupDialog .popupBg {
 	width: 64%;
@@ -713,7 +713,7 @@ input{
 }
 
 #page6 .photo .photo-pic {
-	width: 33%;
+	width: 32%;
 	height: 25%;
 	position: absolute;
 	-webkit-border-radius: 50%;
@@ -726,7 +726,10 @@ input{
 }
 
 #page6 .photo .photo-pic img {
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
 	border-radius: inherit;
+
 }
 #page6 .an{
 	position: absolute;
@@ -864,7 +867,7 @@ input{
 #page11 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 78%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -888,7 +891,7 @@ input{
 #page12 .content .content-btm {
 	position: absolute;
 	width: 22%;
-	top: 77%;
+	top: 75%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -947,7 +950,7 @@ input{
 /*..第15页...*/
 
 #page15 {
-	display: none;
+	/*display: none;*/
 }
 
 #page15 .content .content-btm {
@@ -971,16 +974,16 @@ input{
 /*...第16页...*/
 
 #page16 {
-	display: none;
+	/*display: none;*/
 }
 
 #page16 .photo {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	left: 0;
 	right: 0;
-	top: 0;
+	top: 0%;
 	bottom: 0;
 	margin: auto;
 }
@@ -988,19 +991,28 @@ input{
 #page16 .photo .photo-bg {
 	position: absolute;
 	z-index: 10;
+	width: 100%;
 }
 
 #page16 .photo .photo-pic {
-	width: 22%;
-	height: 12.5%;
+	width: 21%;
+	height: 20%;
 	background-color: white;
-	left: 0;
-	right: 0;
-	top: 20%;
-	border-radius: 50%;
-	margin: auto;
+	left: 39%;
+	/*right: 0%;*/
+	top: 8%;
+	-webkit-border-radius: 50% 50%;
+	-moz-border-radius: 50% 50%;
+	border-radius: 50% 50%;
+
+	/*margin: auto;*/
 	position: absolute;
 	/*z-index: -1;*/
+}
+#page16 .photo .photo-pic img{
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
 }
 
 #page16 .share-erweima {
@@ -1013,19 +1025,27 @@ input{
 #page16 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 45%;
+	top: 40%;
 	text-align: center;
 }
 #page16 .shareContent .pla{
 	width: 7%;
-	position: absolute;
-	left: 16%;
-	top: -26%;
+	/*height: 1%;*/
+	margin-top: 2%;
+	display:inline-block;
+	/*position: absolute;*/
+	
+	/*left: 15%;
+	top: -26%;*/
+}
+#page16 .shareContent .pla img{
+	margin-left: 30%;
+	/*padding-top: 20%;*/
 }
 
 
 #page16 .shareContent p {
-	font-size: .8rem;
+	font-size: .6rem;
 	line-height: 1.3rem;
 	color: #7C5E1C;
 	text-shadow: 0rem 0rem 0.3rem #FCF7E2;
@@ -1057,16 +1077,19 @@ input{
 }
 #page17 .shareContent .pla{
 	width: 7%;
-	position: absolute;
-	left: 25%;
-	top: -26%;
+	/*height: 1%;*/
+	margin-top: 2%;
+	display:inline-block;
+}
+#page17 .shareContent .pla img{
+	margin-left: 30%;
 }
 
 
 /*...第17页...*/
 
 #page17 {
-	/*display: none;*/
+	display: none;
 }
 
 #page17 .share {
@@ -1096,12 +1119,12 @@ input{
 #page17 .shareContent {
 	position: absolute;
 	width: 100%;
-	top: 44%;
+	top: 39%;
 	text-align: center;
 }
 
 #page17 .shareContent p {
-	font-size: .8rem;
+	font-size: .6rem;
 	line-height: 1.2rem;
 	font-weight: bold;
 	color: #7C5E1C;

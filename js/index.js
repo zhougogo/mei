@@ -1,5 +1,8 @@
 //........第一页......
-
+// ....改变第一页的高度...
+var h=$(window).height();
+$('#page1 .content').css('height',h);
+   
 //切换下拉框场地
 $('.pageone .showContent p').on('tap', function() {
 
@@ -17,14 +20,19 @@ $('.pageone .showContent p').on('tap', function() {
 	
 	
 })
-//....验证码..
+//....返回..
+$('.myPopupDialog2 .resetBg').on('tap',function(){
+	
+	$('.myPopupDialog2').css('display','none');
+	
+})
 	
 
 
 
 //下拉框的出现
 $('.pageone .showSelect').on('tap', function() {
-	console.log(123);
+//	console.log(123);
 	$('.pageone .showContent').css('display', 'block');
 })
 
