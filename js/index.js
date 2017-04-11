@@ -7,7 +7,7 @@ $('.gamePic').on('tap',function(){
 
 	// console.log(123);
 
-	$('video').css('width','64%');
+	$('#page2 .pagetwoContent3 .gameVideo').css({'width':'64%','height':'28%','left':'14%'});
 	
 	// video.style.height = 'auto';
 
