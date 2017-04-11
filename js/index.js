@@ -2,6 +2,12 @@
 // ....改变第一页的高度...
 var h=$(window).height();
 $('#page1 .content').css('height',h);
+
+$('.gamePic').on('tap',function(){
+
+	$('video').css('height','auto');
+	// video.style.height = 'auto';
+})
    
 //切换下拉框场地
 $('.pageone .showContent p').on('tap', function() {
