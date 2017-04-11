@@ -3,14 +3,22 @@ var video = document.getElementById('video');
 
 var gamePic = document.getElementsByClassName('gamePic')[0];
 
-gamePic.addEventListener('touchstart',function(){
+gamePic.addEventListener('touch',function(){
+
 	gamePic.style.display = 'none';
-	
+
 	video.play();
 	
-//	video.style.height = 'auto';
+	video.style.height = 'auto';
+
+	
+
 //	video.style.width = '100%';
-})
+});
+// $('gamePic').on('tap',function(){
+
+// })
+
 
  
 
