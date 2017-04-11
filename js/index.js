@@ -5,8 +5,12 @@ $('#page1 .content').css('height',h);
 
 $('.gamePic').on('tap',function(){
 
+	// console.log(123);
+
 	$('video').css('height','auto');
+	
 	// video.style.height = 'auto';
+
 })
    
 //切换下拉框场地
